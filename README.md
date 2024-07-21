@@ -1,2 +1,4 @@
 # Machine Learning Based Diagnosis of Inflammatory Bowel Disease Using Liquid Biopsies
-doi:
+
+__Table of Contents__
+1. 
