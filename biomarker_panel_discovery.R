@@ -1,19 +1,10 @@
 ### In Silico Panel Discovery
 
-library(reshape2)
-library(plyr)
-library(Biobase)
 library(randomForest)
 library(caret)
-library(data.table)
-library(dplyr)
 library(doParallel)
-library(rpart)
 library(e1071)
-library(RANN)
-library(class)
 library(MASS)
-library(foreign)
 library(glmnet)
 
 ibd_ex <- read.delim(file = "Metadataoutrem.txt", header = TRUE)
