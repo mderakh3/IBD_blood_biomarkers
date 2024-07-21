@@ -15,20 +15,22 @@ In this step, by using the preprocessing script, the microarray expression input
 
 __Step 2: Data Integration__
 
-Using the batch_integration script, the datasets were integrated to create a uniform metdadata for expression analysis and batch effects removal process was followed. Additionally, genes that did not have significant signals in microarray were removed to ensure the capturability of biomarkers in experimental procedures. 
+Using the batch_integration script, the datasets were integrated to create a uniform metadata for expression analysis and batch effects removal process was followed. Additionally, genes that did not have significant signals in microarray were removed to ensure the capturability of biomarkers in experimental procedures.
 
 __Step 3: Differential Gene Expression Analysis__
 
-Bulk transcriptomic profiles of cases and controls were compared using the differential_expression_analysis script. 
+Bulk transcriptomic profiles of cases and controls were compared using the differential_expression_analysis script.
 
 __Step 4: Functional Annotation__
 
-By using the functional_annotation script, functional enrichment analysis and network analysis were followed. 
+By using the functional_annotation script, functional enrichment analysis and network analysis were conducted.
 
 __Step 5: Biomarker Panel Discovery__
 
-Using the ... script, IBD-specific diagnsotic were identified and 20/80 split classification was performed using support vector machine algorithm. 
+Using the biomarker_panel_discovery script, IBD-specific diagnsotic were identified and 20/80 split classification was performed using support vector machine algorithm. 
 
 __Step 6: Real-life Cohort Panel Validation__
 
-Using the ... script, the developed diagnositc biomarker panel was evaluated to classifiy patients in the real-life cohort using qRT-PCR expression data. 
+The developed diagnostic biomarker panel was evaluated using the realLife_cohort_evaluation script to classify patients in the real-life cohort with qRT-PCR expression data.
+
+For further detials on the methodology please refer to doi:
