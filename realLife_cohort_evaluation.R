@@ -1,20 +1,10 @@
 ### Real Life Cohort Panel Evaluation
 
 library("ggplot2")
-library("plotly")
-library("viridis")
-library("hrbrthemes")
-library("foreign")
-library("pheatmap")
 library("caret")
 library("pROC")
-library("dplyr")
 library("doParallel")
 library("e1071")
-library("RANN")
-library("class")
-library("MASS")
-library("sva")
 
 ###10-fold Cross Validation
 data <- read.delim("qPCR 4 samples removed.txt", header = T)
@@ -113,7 +103,6 @@ FO <- as.numeric(unique(ROC_table$fold))
 
 ROC_svm <- ROC_table[ROC_table$method == "svm",]
 
-library(pROC)
 roc.svm <- roc(response =as.character(ROC_svm$response), 
                predictor = as.numeric(ROC_svm$predictor),
                smooth = FALSE,legacy.axes = TRUE, 
