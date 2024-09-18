@@ -33,4 +33,4 @@ __Step 6: Real-life Cohort Panel Validation__
 
 The developed diagnostic biomarker panel was evaluated using the realLife_cohort_evaluation script to classify patients in the real-life cohort with qRT-PCR expression data.
 
-For further detials on the methodology please refer to doi:
+For further explanation on the methodology please refer to doi:
