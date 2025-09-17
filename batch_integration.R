@@ -1,5 +1,3 @@
-setwd("D:/Projects/IBD Dignosis Project/Data Collection and Preprocessing/Batch Effect and Gene Filtering")
-
 ### Preparing IBD Metadata 
 data1outrem <- read.delim(file = "data1outrem.txt", header = TRUE)
 data4outrem <- read.delim(file = "data4outrem.txt", header = TRUE)
