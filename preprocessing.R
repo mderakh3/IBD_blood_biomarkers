@@ -1,5 +1,3 @@
-setwd("D:/Projects/IBD Diagnosis Using Liquid Biopsies/Data Collection and Preprocessing/Dataset 1/")
-
 ### Converting Entrez Gene ID to Gene Symbol
 library(org.Hs.eg.db)
 library(annotate)
